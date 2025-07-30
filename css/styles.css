@@ -11,12 +11,12 @@ html {
 
 /* 2) Barvna paleta */
 :root {
-  --bg: #F4E9DC;
-  --prim: #8C6D5A;
-  --sec: #A6937B;
-  --acc: #D9CAB3;
-  --txt: #4D3A2B;
-  --red-earth:  #8C6D5d;
+  --bg: #F9F1E7;         /* zelo svetla bež za ozadje */
+  --prim: #CC6B5A;       /* okr rdeča #CC6B5A barva */
+  --sec: #B25544;        /* temnejši #A05A47 rdeč ton */
+  --acc: #CC6B5A;        /* akcentna bež/#E2B8A1 barva */
+  --txt: #4D2C24;        /* temno rjava za besedilo */
+  --red-earth: #B25544;  /* dodatna #B25544 rdeča */
 }
 
 /* 3) Osnovni slog */
@@ -844,4 +844,39 @@ html {
     font-size: 0.9rem;
     padding: 0.6rem 1rem;
   }
+}
+
+/* === POPRAVEK BARV NA PODLAGI OKR RDEČE === */
+
+/* Aktivnosti kartice */
+.aktivnosti-card p {
+  background-color: var(--sec);
+  color: white;
+}
+
+/* Dropdown meni */
+.main-nav .dropdown-menu {
+  background-color: rgba(160, 90, 71, 0.92); /* prilagojeno var(--sec) */
+}
+
+/* Carousel slide ozadje */
+.carousel-slide {
+  background-color: rgba(204, 107, 90, 0.85); /* prilagojeno var(--prim) */
+}
+
+/* Kontakt wrapper ozadje */
+.kontakt-wrapper {
+  background-color: rgba(204, 107, 90, 0.85); /* prilagojeno var(--prim) */
+}
+
+/* Kontakt form inputi in textarea */
+.kontakt-wrapper .kontakt-form input,
+.kontakt-wrapper .kontakt-form textarea {
+  border: 2px solid var(--prim);
+}
+
+/* Kontakt gumb hover */
+.kontakt-wrapper .kontakt-form button:hover {
+  background-color: var(--prim);
+  color: var(--bg);
 }
