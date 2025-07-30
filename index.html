@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Obišči Koširjevo domačijo – spoznaj zgodovino mlinarstva, umetnost slikarja Franca Koširja in doživi srednjeveško Škofjo Loko.">
+  <title>Koširjeva domačija</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome za ikonice -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="fotografije/logo1.png" type="image/png">
+
+</head>
+  <!-- Tvoj glavni stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+  <!-- 2) Header -->
+ <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="fotografije/logo.png" alt="Logotip">
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Domov</a></li>
+
+          <li class="dropdown">
+            <a href="#">Spoznaj Koširjevino</a>
+            <ul class="dropdown-menu">
+              <li><a href="zgodovina.html">Zgodovina škofjeloškega območja</a></li>
+              <li><a href="utrinki-dediscina.html">Sledi Koširjeve dediščine in Utrinki preteklosti</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">Doživi</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Na meščanskih vrtovih</a></li>
+              <li><a href="#">Na kapučinu pri<br>p. Romualdu</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">Odkrij</a>
+            <ul class="dropdown-menu">
+              <li><a href="mlinarstvo.html">Mlinarstvo</a></li>
+              <li><a href="slikar.html">slikar Franc Košir</a></li>
+              <li><a href="arhitektura.html">Arhitekturne posebnosti</a></li>
+              <li><a href="tehnicna.html">Tehnična dediščina</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="dogodki.html">Dogodki</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 3) Hero sekcija -->
+  <div class="hero-slider">
+  <div class="slide active">
+    <img src="fotografije/slikar.png" class="slide-img" alt="Koširjevina">
+    <div class="slide-content">
+      <h1>Spoznaj Koširjevino</h1>
+      <p>MALEN POD MOSTOM - l. 1309</p>
+      <a href="utrinki-dediscina.html" class="btn">Več</a>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="fotografije/slikar.png" class="slide-img" alt="Franc Košir">
+    <div class="slide-content">
+      <h1>ROJSTNA HIŠA SLIKARJA FRANCA KOŠIRJA</h1>
+      <p>Odkrij umetnost preteklosti</p>
+      <a href="slikar.html" class="btn">Več</a>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="fotografije/slikar.png" class="slide-img" alt="Meščanski vrt">
+    <div class="slide-content">
+      <h1>Meščanski vrt</h1>
+      <p></p>
+      <a href="#" class="btn">Več</a>
+    </div>
+  </div>
+
+  <button class="slider-arrow prev">&larr;</button>
+  <button class="slider-arrow next">&rarr;</button>
+</div>
+<!-- dogodki -->
+<section class="dogodki-section ">
+  <div class="container">
+    <h2>V ospredju</h2>
+    <p class="subtitle">Aktualni dogodki</p>
+
+    <div class="carousel">
+      <div class="carousel-track">
+        <!-- Dogodek 1 -->
+        <div class="carousel-slide active">
+          <div class="carousel-image">
+            <img src="fotografije/foto1.png" alt="Fotografske razstave">
+          </div>
+          <div class="carousel-text">
+            <h3>Fotografska razstava – 8. 9. 2025</h3>
+            <p>Na razstavi bodo predstavljena dela lokalnih umetnikov, ki skozi objektiv raziskujejo dediščino, krajino in življenje Koširjevine.</p>
+            <a href="dogodki.html" class="btn">VEČ</a>
+          </div>
+        </div>
+
+        <!-- Dogodek 2 -->
+        <div class="carousel-slide">
+          <div class="carousel-image">
+            <img src="fotografije/mlincek.png" alt="Mlini na Slovenskem">
+          </div>
+          <div class="carousel-text">
+            <h3>Mlini na Slovenskem – 4. 10. 2025</h3>
+            <p>Mlinarska dediščina odseva kulturno identiteto kraja ter prispeva arhitekturno in krajinsko vrednost okolju.</p>
+            <a href="dogodki.html" class="btn">VEČ</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-prev">‹</button>
+      <button class="carousel-next">›</button>
+    </div>
+  </div>
+</section>
+  <!-- MLINSKO KOLO -->
+  <div class="css-wheel"></div>
+
+  <!-- KMET -->
+  <div class="css-farmer">
+    <div class="head"></div>
+    <div class="body"></div>
+  </div>
+
+  <!-- 4) Aktivnosti v naravi -->
+ <section class="aktivnosti-section">
+  <div class="container">
+    <h2>Poišči navdih</h2>
+    <p class="subtitle">Odkri lepote </p>
+
+    <div class="aktivnosti-grid">
+      <div class="aktivnosti-card">
+        <a href="tehnicna.html">
+          <img src="fotografije/samostan.png" alt="Dediščina">
+          <p>Kapucinski samostan</p>
+        </a>
+      </div>
+      <div class="aktivnosti-card">
+        <a href="#">
+          <img src="fotografije/kofetarica.avif" alt="Kraji">
+          <p>Na kapučinu</p>
+        </a>
+      </div>
+      <div class="aktivnosti-card">
+        <a href="dogodki.html">
+          <img src="fotografije/Foto_025.jpg" alt="Ljudje">
+          <p>Razstave</p>
+        </a>
+      </div>
+      <div class="aktivnosti-card">
+        <a href="mlinarstvo.html">
+          <img src="fotografije/vozicek.jpg" alt="Podnebje">
+          <p>Naši rokodelci</p>
+        </a>
+      </div>
+      <div class="aktivnosti-card">
+        <a href="#">
+          <img src="fotografije/pasjon.jpg" alt="Lokalni produkti in spominki">
+          <p>Škofjeloški pasion</p>
+        </a>
+      </div>
+      <div class="aktivnosti-card">
+        <a href="#">
+          <img src="fotografije/star vrt.png" alt="Zelena destinacija">
+          <p>Med vrtovi</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- mail -->
+
+<section class="kontakt-wrapper section">
+  <div class="kontakt-levo">
+    <h2>Kontaktirajte nas</h2>
+    <form class="kontakt-form" action="mailto:tvoj@email.com" method="post" enctype="text/plain">
+      <input type="text" name="ime" placeholder="Ime" required>
+      <input type="email" name="email" placeholder="Vaš email" required>
+      <textarea name="sporocilo" placeholder="Sporočilo" required></textarea>
+      <button type="submit">Pošlji</button>
+    </form>
+  </div>
+  <div class="kontakt-desno">
+    <img src="fotografije/zravnmail.png" alt="Koširjev mlin" />
+  </div>
+</section>
+
+  <!-- 5) Footer -->
+  <footer class="footer-banner">
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>Stiki</h4>
+        <ul>
+          <li>Poljanska cesta 2, Škofja Loka</li>
+          <li>T: +386 4 517 06 00</li>
+          <li><a href="mailto:info@kosirjevmlin.si">info@kosirjevmlin.si</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Viri</h4>
+        <ul>
+          <li><a href="povezave.html">Diplomske naloge</a></li>
+          <li><a href="povezave.html">Blaznik</a></li>
+          <li><a href="povezave.html">Štukl</a></li>
+        </ul>
+      </div>
+      <div class="footer-col social">
+        <h4>Sledite nam</h4>
+        <a href="#"><i class="fab fa-facebook-f" style="color: var(--txt); margin-right: 1rem;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color: var(--txt);"></i></a>
+      </div>
+      <div class="footer-col">
+        <h4>Avtor</h4>
+        <ul>
+          <li>Luka Ilovar</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+ <script>
+  const dogodkiSlides = document.querySelectorAll('.carousel-slide');
+  const dogodkiNextBtn = document.querySelector('.carousel-next');
+  const dogodkiPrevBtn = document.querySelector('.carousel-prev');
+  let dogodkiCurrent = 0;
+  let dogodkiInterval = setInterval(nextDogodek, 6000);
+
+  function showDogodek(index) {
+    dogodkiSlides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === index) slide.classList.add('active');
+    });
+  }
+
+  function nextDogodek() {
+    dogodkiCurrent = (dogodkiCurrent + 1) % dogodkiSlides.length;
+    showDogodek(dogodkiCurrent);
+  }
+
+  function prevDogodek() {
+    dogodkiCurrent = (dogodkiCurrent - 1 + dogodkiSlides.length) % dogodkiSlides.length;
+    showDogodek(dogodkiCurrent);
+  }
+
+  function resetDogodekInterval() {
+    clearInterval(dogodkiInterval);
+    dogodkiInterval = setInterval(nextDogodek, 6000);
+  }
+
+  dogodkiNextBtn.addEventListener('click', () => {
+    nextDogodek();
+    resetDogodekInterval();
+  });
+
+  dogodkiPrevBtn.addEventListener('click', () => {
+    prevDogodek();
+    resetDogodekInterval();
+  });
+ </script>
+<script>
+  const heroSlides = document.querySelectorAll('.hero-slider .slide');
+  const nextBtn = document.querySelector('.hero-slider .slider-arrow.next');
+  const prevBtn = document.querySelector('.hero-slider .slider-arrow.prev');
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    heroSlides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === index) slide.classList.add('active');
+    });
+  }
+
+  nextBtn.addEventListener('click', () => {
+    currentSlide = (currentSlide + 1) % heroSlides.length;
+    showSlide(currentSlide);
+  });
+
+  prevBtn.addEventListener('click', () => {
+    currentSlide = (currentSlide - 1 + heroSlides.length) % heroSlides.length;
+    showSlide(currentSlide);
+  });
+</script>
+</body>
+</html>
